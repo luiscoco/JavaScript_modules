@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script src="./scriptA.js"></script>
+		<script src="./scriptB.js"></script>
+		<script>
+			console.log('variable from A in script', a);
+			console.log('variable from B in script', b);
+
+			/*
+      Sharing variables via global object
+      Downsides
+      - property can be overridden by another script (names conflict)
+      - we cannot explicity see, what is exported and imported from the file
+      - we need to think about the order in each the scripts are loaded
+      */
+		</script>
+	</head>
+	<body></body>
+</html>

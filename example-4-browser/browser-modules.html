@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<!-- scripts with type = "module" automatically get "defer" behavior -->
+		<script src="./a.js" type="module"></script>
+		<script src="./b.js" type="module"></script>
+
+		<!-- inline module can be async, unlike a regular script tag (without  type="module") -->
+		<script async type="module">
+			// That’s good for functionality that doesn’t depend on anything, like counters, ads, document-level event listeners
+			// import { counter } from './analytics.js';
+			// counter.count();
+		</script>
+		<script>
+			// 🕮 <cyberbiont> 36e93016-8bf8-4073-a319-0ef3d81fbd9f.md
+		</script>
+	</head>
+	<body></body>
+</html>
